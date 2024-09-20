@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "East US"  # Replace with your preferred region
+    },
+    "sqlServerName": {
+      "value": "my-sql-server"  # Replace with your SQL Server name
+    },
+    "administratorLogin": {
+      "value": "adminuser"  # Replace with SQL admin username
+    },
+    "administratorLoginPassword": {
+      "value": "P@ssw0rd!"  # Replace with a strong password
+    },
+    "databaseName": {
+      "value": "mydatabase"  # Replace with your database name
+    }
+  }
+}
